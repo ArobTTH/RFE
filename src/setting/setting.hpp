@@ -1,6 +1,5 @@
-
-#ifndef RFE_GENERAL_SETTING_HPP
-#define RFE_GENERAL_SETTING_HPP
+#ifndef RFE_SETTING_HPP
+#define RFE_SETTING_HPP
 
 
 /**
@@ -8,6 +7,8 @@
  *  \mainpage solver general settings
  *  \author   Ruiyang Ji
  * */
+
+#include "mcmp_setting.hpp"
 
     /// solver general settings
     // floating point accuracy
@@ -25,8 +26,4 @@
     constexpr bool              IsSave       = true;
     constexpr bool              IsMonitor    = true;
 
-
-
-
-
-#endif //RFE_GENERAL_SETTING_HPP
+#endif //RFE_SETTING_HPP

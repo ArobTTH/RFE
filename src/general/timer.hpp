@@ -8,6 +8,8 @@
 */
 
 #include <chrono>
+#include <iostream>
+#include <string>
 using namespace std;
 using namespace chrono;
 
@@ -30,6 +32,12 @@ public:
         duration_ = duration_cast<std::chrono::duration<double>>(stop_ - start_);
         runtime_ = duration_.count();
         return runtime_;
+    }
+
+    void TimeShow() noexcept
+    {
+
+
     }
 
 private:

@@ -6,18 +6,15 @@
 
 
 #include <iostream>
-#include "src/setting/general_setting.hpp"
+
+
+#include "src/setting/setting.hpp"
 #include "src/general/timer.hpp"
 
 int main() {
 
 
-    Timer timer1;
-    timer1.Start();
-    std::cout<< DataTp (NX) << std::endl;
-    timer1.Stop();
-
-    std::cout<< timer1.GetRunTime() << std::endl;
+    std::cout<< PR_a << std::endl;
 
     return 0;
 }

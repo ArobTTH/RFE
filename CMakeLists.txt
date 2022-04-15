@@ -7,8 +7,8 @@ project(RFE)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(RFE main.cpp
-        src/setting/general_setting.hpp
+        src/setting/setting.hpp
         src/lattice/D2Q9.hpp
-        src/setting/physical_setting.hpp
-        src/general/timer.hpp)
+        src/setting/mcmp_setting.hpp
+        src/general/timer.hpp src/lattice/D3Q19.hpp src/population/population.hpp)
 
